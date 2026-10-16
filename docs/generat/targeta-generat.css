@@ -1,0 +1,19 @@
+.game-card {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 280px;
+  height: 380px;
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 16px;
+}
+.game-card-out-of-stock {
+  opacity: 0.6;
+  border: 1px solid #ef4444;
+}
+.price-tag {
+  color: #10b981;
+  font-size: 20px;
+  font-weight: bold;
+}

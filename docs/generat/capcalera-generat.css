@@ -1,0 +1,30 @@
+.header-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 80px;
+  background-color: #0d0e12;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.logo-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b5cf6;
+}
+.cart-badge {
+  position: absolute;
+  top: 18px;
+  right: 35px;
+  background-color: #ef4444;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+:root {
+  --color-fons: #0d0e12;
+  --color-superficie: #1f2937;
+  --color-text: #f3f4f6;
+  --color-marca: #8b5cf6;
+  --color-marca-hover: #7c3aed;
+  --color-preu: #10b981;
+  --color-esgotat: #ef4444;
+  --color-borde: #374151;
+
+  --espai-xs: 4px;
+  --espai-s: 8px;
+  --espai-m: 16px;
+  --espai-l: 24px;
+  --espai-xl: 32px;
+
+  --radi: 8px;
+  --font-principal: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-fons);
+  color: var(--color-text);
+  font-family: var(--font-principal);
+  margin: 0;
+  padding: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-marca);
+  outline-offset: 2px;
+}

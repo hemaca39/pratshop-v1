@@ -1,0 +1,3 @@
+1. "Design a modern dark-themed gaming e-commerce homepage header with a logo 'GamerZone', a search bar, navigation links (Inicio, Catálogo), and a shopping cart button with a badge indicator."
+2. "Add a product card for a video game titled 'Elden Ring' with an image, price tag $59.99, stock badge, and an 'Anadir al carrito' button."
+3. "Refine the video game product card to add an 'Agotado' (Out of stock) variant styling with disabled buttons and transparent opacity."

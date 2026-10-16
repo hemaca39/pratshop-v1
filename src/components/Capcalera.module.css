@@ -1,0 +1,40 @@
+.capcalera {
+  background-color: var(--color-superficie);
+  border-bottom: 1px solid var(--color-borde);
+  padding: var(--espai-m) var(--espai-l);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--color-marca);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: var(--espai-m);
+  align-items: center;
+}
+
+.link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.actiu {
+  color: var(--color-marca);
+}
+
+.globus {
+  background-color: var(--color-esgotat);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  margin-left: 4px;
+}

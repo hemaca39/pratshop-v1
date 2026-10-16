@@ -1,0 +1,54 @@
+.targeta {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radi);
+  padding: var(--espai-m);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--espai-s);
+  height: 100%;
+}
+
+.esgotat {
+  opacity: 0.6;
+  border-color: var(--color-esgotat);
+}
+
+.imatge {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--radi);
+}
+
+.nom {
+  margin: var(--espai-xs) 0;
+  font-size: 1.1rem;
+}
+
+.preu {
+  color: var(--color-preu);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.botoDetall {
+  display: inline-block;
+  text-align: center;
+  background-color: var(--color-marca);
+  color: white;
+  padding: var(--espai-s) var(--espai-m);
+  border-radius: var(--radi);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.botoDetall:hover {
+  background-color: var(--color-marca-hover);
+}
+
+.textEsgotat {
+  color: var(--color-esgotat);
+  font-weight: bold;
+}
